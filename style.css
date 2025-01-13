@@ -110,3 +110,13 @@ a:hover {
 .menu-links.open {
     max-height: 300px;
 }
+
+.mobile-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+}
+.mobile-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+.mobile-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+}
