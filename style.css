@@ -302,5 +302,20 @@ article .icon {
     cursor: default;
 }
 
+/* Projects */
 
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
 
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    
+}
