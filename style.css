@@ -151,16 +151,22 @@ section {
 
 .section-text p {
     font-weight: 600;
+    color:  rgb(53, 53, 53);
 }
 
 .section-text-p1 {
-    font-size: 1.75rem;
     text-align: center;
+    
+}
+
+.section-text-p2 {
+    font-size: 1.75rem;
     margin-bottom: 1rem;
 }
 
 .title {
     font-size: 3rem;
+    text-align: center;
 }
 
 /* BUTTONS */
@@ -204,4 +210,55 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+/* ABOUT */
+
+#about {
+    position: relative;
+}
+
+.section-container {
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+}
+
+.about-details-container,
+.about-containers {
+    display: flex;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: rgb(163, 163, 163   ) 0.1rem solid;
+    text-align: center;
+}
+
+.section-pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
